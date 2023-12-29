@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('Child window handling ', async ({ browser }) => {
+test('@ui Child window handling ', async ({ browser }) => {
 
         const context = await browser.newContext();
         const page = await context.newPage();
